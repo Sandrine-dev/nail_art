@@ -5,25 +5,26 @@ function Navbar () {
   return (
     <div className="navbar">
       <div className="navbar_box">
-        <div className="navbar_page"> </div>
-        <ul className="navbar_page_list">
-          <li>
-            Acceuil
-          </li>
-          <li>Panier</li>
-          <li>Avis Client</li>
-          <li>Contact</li>
-          <li>F.A.Q</li>
-        </ul>
-      </div>
-      <div className="navbar_switch">
-        <div className="navbar_switch_lang">
-          <button>french</button>
-          <button>english</button>
+        <div className="navbar_logo">
+          <h2>Press-On Nails</h2>
         </div>
-        <div className="navbar_switch_light">
-          <button>night</button>
-          <button>day</button>
+        <div className="navbar_page">
+          <ul className="navbar_page_list">
+          <li>Acceuil</li>
+
+          <li>Guide des tailles</li>
+
+          <li>Boutique</li>
+
+          <li>Utilisation</li>
+
+          <li>Galerie</li>
+
+          <li>Contact</li>
+          </ul>
+        </div>
+        <div className="navbar_basket">
+          image d'un panier
         </div>
       </div>
     </div>
