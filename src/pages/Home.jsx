@@ -1,9 +1,7 @@
-
-
 function Home () {
 
   return (
-    <>
+    <div className="home">
       <section className="home-hero">
         <div className="home-hero__box">
           <div className="home-hero__container">
@@ -220,7 +218,7 @@ function Home () {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 
