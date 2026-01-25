@@ -2,7 +2,7 @@ function Products () {
 
   return (
       <section className="products-sheet">
-          <div className="products-sheet__box">
+          <article className="products-sheet__box">
               <div className="products-sheet__view">
                   <div className="products-sheet__img"></div>
                   <div className="products-sheet__carousel"></div>
@@ -27,8 +27,8 @@ function Products () {
                       <button className="button button--pink">Ajouter au Panier</button>
                   </div>
               </div>
-          </div>
-          <div className="products-sheet__included">
+          </article>
+          <article className="products-sheet__included">
               <div className="products-sheet__included-text">
                   <h4>Ce qui est inclus</h4>
                   <ul>
@@ -39,7 +39,7 @@ function Products () {
                   </ul>
               </div>
               <div className="products-sheet__included-images"></div>
-          </div>
+          </article>
       </section>
   )
 }
